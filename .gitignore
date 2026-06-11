@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+.mcp_mysql_venv/
+.env
+.env.*
+!.env.example
+
+# Local secrets
+config/local_keys_private.py
+
+# Runtime data and generated artifacts
+data/runtime/
+data/chroma_db/
+result/*
+!result/.gitkeep
+logs/
+temp/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / IDE
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archives and generated reports
+*.zip
+*.tar
+*.gz

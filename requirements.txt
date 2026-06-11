@@ -1,0 +1,36 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Database
+SQLAlchemy>=2.0.0
+pymysql>=1.1.0
+mysql-connector-python>=8.0.0
+
+# API service
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0
+
+# LLM / RAG / embeddings
+requests>=2.31.0
+dashscope>=1.14.0
+chromadb>=0.4.0
+
+# OCR / PDF / document parsing
+beautifulsoup4>=4.12.0
+pypdf>=4.2.0
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+pdf2image>=1.17.0
+Pillow>=10.0.0
+
+# Visualization and utilities
+matplotlib>=3.7.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# Testing
+pytest>=8.0.0
